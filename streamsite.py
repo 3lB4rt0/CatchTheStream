@@ -9,4 +9,4 @@ class streamSite():
 
     def returnFirstReGroup(self, pattern, text):
         m = re.search(pattern, text)
-        return m.group(1)
+        return m.group(0)
